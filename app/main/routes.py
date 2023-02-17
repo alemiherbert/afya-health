@@ -26,5 +26,5 @@ def reschedule_appointment(appointment):
 
 
 @main.route("/appointments/<appointment>/delete")
-def delete_appointment():
+def delete_appointment(appointment):
     return "Delete this appointment"
